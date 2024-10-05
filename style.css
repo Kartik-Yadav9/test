@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans' 'Helvetica Neue', sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    
+}
+
+/* ----------------------------------------------------HEADER------------------------------------------------------- */
+
+header{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    padding: 35px 50px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.header-heading{
+    display: flex;
+    gap: 35px;
+}
+
+.header-btn{
+    display: flex;
+    gap: 7px;
+}
+
+button.login-btn {
+    padding: 5px 27px;
+    border-radius: 5px;
+    border: 1px solid #00a1ff;
+    color: #00a1ff;
+    background-color: white;
+}
+
+button.register-btn {
+    padding: 5px 18px;
+    border: 1px solid #00a1ff;
+    color: white;
+    background-color: #00a1ff;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+/* ------------------------------------------------main---------------------------------------------------- */
+
+
+
+
+.top-bg-image{
+    background-image: url("https://img.freepik.com/fotos-premium/hacker-usando-laptop-oficina-oscura-noche-hombre-capucha-mascara-trabajando-computadora_1004505-1052.jpg");
+    background-size:cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    
+}
+
+.top-bg-image p{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.bg-image-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 24px;
+    
+}
+
+.bg-image-content button {
+    color: white;
+    background-color: #00a1ff;
+    padding: 9px 34px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+.socialmedia-section {
+    margin-top: 50px;
+}
+
+
+img.socialmedia-img {
+    width: 501px;
+    min-width: 150px;
+    max-height: 410px;
+}
+
+.socialmedia-heading{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+
+.socialmedia-heading-section{
+    font-size: 28px;
+    text-align: center;
+    padding: 0px 190px;
+}
+
+.socialmedia-para-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.socialmedia-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    min-width: 250px;
+    width: 630px;
+}
+
+
+.socialmedia-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 71px;
+    padding: 0px 70px;
+    flex-wrap: wrap;
+}
+
+
+
+.form-footer{
+    margin-top: 150px;
+}
+
+
+.footer-upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 190px;
+    gap: 53px;
+    margin-bottom: 101px;
+}
+
+.footer-heading {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.footer-para {
+    font-size: 28px;
+    text-align: center;
+}
+
+.footer-form{
+    border: 1px solid;
+    padding: 35px 20px;
+}
+
+.footer-form p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+input {
+    border: 2px solid #efe7e7; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+}
+
+.form-row{
+    flex: 1;
+}
+
+.form-row{
+    display: flex;
+    gap: 10px;
+}
+
+input[type= "password"]{
+    width: 100%;
+}
+
+form button {
+    display: block;
+    background-color: #00a1ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 7px 24px;
+    border-radius: 7px;
+}
+
+/* -------------------------------------------------Footer---------------------------------------------------------- */
+
+footer{
+    background-color: rgb(63, 62, 62);
+    color: white;
+    font-size: 14px;
+}
+
+.fa-brands{
+    background-color: white;
+    color: grey;
+    background-color:  rgb(63, 62, 62);;
+}
+
+
+.footer-lower-part1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+    padding-top: 52px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 37px;
+}
+
+.footer-info {
+    display: flex;
+    gap: 72px;
+    color: grey;
+    padding-left: 80px;
+    align-items: center;
+}
+
+
+.footer-column{
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-btn-register {
+    color: white;
+    background-color:  #00a1ff;
+    padding: 5px 17px;
+    font-size: 11px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.footer-btn-login{
+    color: #00a1ff;
+    background-color: white;
+    padding: 5px 17px;
+    font-size: 11px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.footer-lower-part2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    margin: 0px 51px;
+    color: gray;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+
+}
+
+
+/* -------------------------------------------------------------------Media Queries---------------------------------------------------------------- */
+
+@media only screen and (max-width: 770px){
+
+    .socialmedia-heading-section{
+        padding: 0px 50px;
+    }
+
+    .footer-upper{
+        padding: 0px 50px;
+    }
+
+    .socialmedia-content {
+        margin-bottom: 40px;
+    }
+
+    .form-footer {
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 427px){
+
+
+    .bg-image-content {
+        padding: 0px 3px;
+        text-align: center;
+    }
+
+    .header-heading{
+        display: none;
+    }
+
+    .footer-lower-part1{
+        display: none;
+    }
+
+    .footer-form {
+        border: 1px solid;
+        padding: 30px 20px;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .socialmedia-content {
+        margin-bottom: 40px;
+    }
+
+    .socialmedia-column {
+        padding: 0px 30px
+    }
+
+    .form-footer {
+        margin-top: 71px;
+    }
+
+    .form-row {
+        flex-wrap: wrap;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .footer-lower-part2{
+        display: block;
+        padding: 30px 10px;
+    }
+}
