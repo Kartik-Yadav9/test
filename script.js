@@ -1,6 +1,6 @@
-let form= document.getElementById('registrationForm')
+let Form= document.getElementById('registrationForm')
 
-    form.addEventListener('submit', function(event) {
+    Form.addEventListener('submit', function(event) {
     event.preventDefault(); 
 
     
@@ -15,5 +15,5 @@ let form= document.getElementById('registrationForm')
    
     console.log(formData);
 
-    form.reset();
+    Form.reset();
   });
